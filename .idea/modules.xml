@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/TemperaturaUmidade.iml" filepath="$PROJECT_DIR$/TemperaturaUmidade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/drone-monitoramento.iml" filepath="$PROJECT_DIR$/.idea/drone-monitoramento.iml" />
     </modules>
   </component>
 </project>
