@@ -1,0 +1,19 @@
+server:
+  port: 8081
+
+spring:
+  kafka:
+    producer:
+      bootstrap-servers: 127.0.0.1:29092
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+      group-id: drone_id
+
+topic:
+  name:
+    producer: fiap.scjr.agromonitor
+
+  auto:
+    create:
+      topic:
+        enabled: false
